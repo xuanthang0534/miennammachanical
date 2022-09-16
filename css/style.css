@@ -1,0 +1,136 @@
+body {
+  background: #fff;
+  font-size: 100%;
+  font-family: "mulish", sans-serif;
+  line-height: 1.6;
+}
+
+/* header */
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+}
+.active {
+  background: #000;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* top-header */
+.top-header {
+  background: #ededed;
+  font-size: 14px;
+  color: #333;
+  padding: 3px 0;
+}
+header p {
+  margin-bottom: 0;
+  line-height: 35px;
+  font-size: 13px;
+}
+.social a {
+  color: #333;
+}
+.social a i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+/* main header */
+.main-header {
+  padding-top: 15px;
+}
+.menu-header {
+  background: #1224c2;
+}
+.menu-header ul li {
+  display: inline-block;
+  transition: all.3s;
+  position: relative;
+}
+.menu-header ul li:active {
+  background: #333;
+}
+.menu-header ul li:hover {
+  transition: all 0.3s;
+  background: #333;
+}
+.menu-header ul li a {
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+.product {
+  position: absolute;
+  width: 170px;
+  background: #333;
+  left: 0;
+  top: 80px;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 99;
+}
+
+.product-li {
+  display: block;
+}
+.product-li-a {
+  display: block;
+  text-transform: inherit;
+  padding: 5px;
+  border-bottom: dashed 3px #fff;
+}
+
+.menu-header ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top: 40px;
+}
+.card-home {
+  border: 1px solid #000;
+}
+.card {
+  height: 27rem;
+}
+.card img {
+  width: 400px;
+  height: 250px;
+}
+.main-content {
+  padding-bottom: 30px;
+}
+.Section-container {
+  background: #dee2e6;
+  padding-bottom: 30px;
+}
+/* giới thiwwju công ty */
+
+/* chất lượng */
+.target-content {
+  background: #dee2e6;
+  padding: 30px;
+}
+.target-content img {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 220px;
+  margin: 0 auto;
+}
